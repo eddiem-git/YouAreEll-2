@@ -1,10 +1,10 @@
 package controllers;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-
 import models.Id;
 import models.Message;
+
+import java.util.ArrayList;
+import java.util.HashSet;
 
 public class MessageController {
 
@@ -12,6 +12,7 @@ public class MessageController {
     // why a HashSet??
 
     public ArrayList<Message> getMessages() {
+
         return null;
     }
     public ArrayList<Message> getMessagesForId(Id Id) {
